@@ -1,0 +1,11 @@
+version: 1.0.0
+ignore:
+  - id: endorignore-1
+    username: sreyas-endor
+    update_time: 2026-10-29 06:49:08 UTC
+    finding_name: 'GHSA-2xpw-w6gg-jr37: urllib3 streaming API improperly handles highly compressed data'
+    dependency_name: pypi://urllib3@1.24.1
+    vuln_id: GHSA-2xpw-w6gg-jr37
+    extra_key: GHSA-2xpw-w6gg-jr37
+    reason: false-positive
+    comments: bug bash baseline after accepting app permissions
